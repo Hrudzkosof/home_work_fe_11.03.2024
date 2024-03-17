@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+   margin: 30px;
+    position: relative;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    
+}
+
+.box1 {
+    border: 2px solid red;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background-color: red;
+
+}
+.box2 {
+    border: 2px solid blue;
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+    background-color: blue;
+}
+.box3 {
+    border: 2px solid green;
+    left: 60px;
+    top: 60px;
+    z-index: 0;
+    background-color: green;
+}

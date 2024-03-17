@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.block {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    margin-top: 5px ;
+    margin-bottom: 52px;
+    width: 40%;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+
+}
+
+nav ul {
+    height: 50px;
+    background-color: rgb(165, 78, 107);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+}
+.h1 {
+    margin: 15px;
+    font-size: 30px;
+    color: palevioletred;
+}
+p{
+    margin: 15px;
+    font-size: 20px;
+    color: palevioletred;
+
+}
